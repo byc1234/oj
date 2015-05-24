@@ -13,9 +13,6 @@ using namespace std;
         int pivot = ei;
         ei--;
         while (si <= ei) {
-        cout << "si: " << si << ":";
-        cout << "ei: " << ei << ":";
-        print(nums);
             if (nums[pivot] < nums[si]) {
                 int tmp = nums[ei];
                 nums[ei] = nums[si];
